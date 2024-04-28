@@ -1,5 +1,4 @@
-
- <!-- Paragraphs and Line Breaks  -->
+<!-- Paragraphs and Line Breaks  -->
 1行目(スペースを2つ入れる)
 
 2行目
@@ -21,7 +20,6 @@
 * リスト2  
 
 <!-- Decimal -->
-
 1. リスト1-1
     2. リスト1-2  
 2. リスト2  
@@ -62,7 +60,7 @@
 
 <!-- Talbe -->
 | Left align | Right align | Center align |
-|:-----------|------------:|:------------:|
+| :--------- | ----------: | :----------: |
 | This       |        This |     This     |
 | column     |      column |    column    |
 | will       |        will |     will     |
