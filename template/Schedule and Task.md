@@ -37,34 +37,29 @@
   - 質より量を重視する
   - アイデアを結合し発展させる(結合改善)
 
-■WBS：WBS作成時に、全ての情報持っているわけではない。
-- IPO：定義する
-- 良い委譲：チャレンジングなくらいの難易度、必要な時に（遅延しそうな時）把握する
-- 悪い委譲（委譲そもそもできてないのもNG）：丸投げ、やり方を強いるタスクを奪う
-- 役割をローテーションすることが知識のサイロ化抑制につながる★★★（スイッチングコスト）
-- リソース配分
-    - WBS
-        - 見積もりを行うこと：どんどん精度を上げていく
-        - たまたまうまくいったではなく、いい見積もりを続ける（再現性）
-    - 人を見極めて・チームの仕事量とキャパシティを見極める（ピープルマネージメント）
-    - 担当決め
-    - 業務・負荷コントロール
-    - トリアージ（必要があるかも検討する必要がある）
-    - ボトルネックの解消：障害を取り除く、停滞しているチームのサポートをする
-- WBS：https://asana.com/ja/resources/work-breakdown-structure
-- 役割と責任を確立する 4 つの方法（RACI チャート）：https://asana.com/ja/resources/roles-and-responsibilities
-- カンバン：（★）WIP制限（４つ）：https://www.atlassian.com/ja/agile/kanban/wip-limits
-- スコープクリープ：https://asana.com/ja/resources/what-is-scope-creep
-- クリティカルパス
-- 遅延：https://asana.com/ja/resources/fast-tracking-vs-crashing
-    - クラッシング：追加
-    - ファストトラッキング：並行
-
 ■会議
+□原則
+1. ミーティングの目的やゴールを明らかにする
+   1. 情報共有
+   2. 意思決定
+   3. 問題解決
+   4. チームビルディング
+   5. 壁打ちやフィードバック
+2. 全体像や現在地を伝える
+3. 前提情報の共有をする
+
 □議事録：https://asana.com/ja/resources/meeting-notes-tips
-- AGENDA（議題）
-- FIX（決まったこと）
-- TODO（次回やること）
+- I（インプット）：前提条件・事前準備
+  - どのレベルが必要か
+- P（プロセス）：進め方
+  - 良い議事録（まず内容理解する）
+    - 発言録ではない
+    - 内容が構造化されている
+    - 空気感まで加味されている
+- O（アウトプット）：
+  - AGENDA（議題）
+  - FIX（決まったこと）
+  - TODO（次回やること）
 
 □会議マネジメント：https://asana.com/ja/resources/meeting-management
 - 注意：コミュニケーションオーバーヘッドの増加に対処する必要あり
@@ -189,3 +184,26 @@ https://asana.com/ja/resources/sprint-retrospectivehttps://asana.com/ja/resource
     - デイリースタンドアップ：
     - スプリント レビュー
     - スプリントのふりかえり
+
+■WBS：WBS作成時に、全ての情報持っているわけではない。
+- IPO：定義する
+- 良い委譲：チャレンジングなくらいの難易度、必要な時に（遅延しそうな時）把握する
+- 悪い委譲（委譲そもそもできてないのもNG）：丸投げ、やり方を強いるタスクを奪う
+- 役割をローテーションすることが知識のサイロ化抑制につながる★★★（スイッチングコスト）
+- リソース配分
+    - WBS
+        - 見積もりを行うこと：どんどん精度を上げていく
+        - たまたまうまくいったではなく、いい見積もりを続ける（再現性）
+    - 人を見極めて・チームの仕事量とキャパシティを見極める（ピープルマネージメント）
+    - 担当決め
+    - 業務・負荷コントロール
+    - トリアージ（必要があるかも検討する必要がある）
+    - ボトルネックの解消：障害を取り除く、停滞しているチームのサポートをする
+- WBS：https://asana.com/ja/resources/work-breakdown-structure
+- 役割と責任を確立する 4 つの方法（RACI チャート）：https://asana.com/ja/resources/roles-and-responsibilities
+- カンバン：（★）WIP制限（４つ）：https://www.atlassian.com/ja/agile/kanban/wip-limits
+- スコープクリープ：https://asana.com/ja/resources/what-is-scope-creep
+- クリティカルパス
+- 遅延：https://asana.com/ja/resources/fast-tracking-vs-crashing
+    - クラッシング：追加
+    - ファストトラッキング：並行

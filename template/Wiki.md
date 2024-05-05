@@ -3,8 +3,8 @@
 
 ## ドメイン
 
-#### 用語
 
+#### 用語
 
 --- 
 - ナレッジマネジメント（SECI モデル）：https://asana.com/ja/resources/knowledge-management
