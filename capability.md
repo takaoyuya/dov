@@ -1,4 +1,4 @@
-## ケイパビリティ
+## Capability
 フロントエンドはTSベースのWEBシステム、バックエンドは、KotlinやNodeJs、GO、Python言語でのモダンな開発環境を希望。
 （Windows等ロックされた開発環境は不可）
 
