@@ -4,15 +4,15 @@
 
 ### LEVEL
 - Beginner（★）：学習経験あり・実務経験あり（1年以内）
-- Intermediate （★★）：実務経験あり（キャッチアップ必要）
-- Advanced （★★★）：実務経験あり、継続キャッチアップしている（1年以上かつ複数PJ経験あり）
+- Intermediate （★★）：実務経験あり（要キャッチアップ）
+- Advanced （★★★）：即時対応可能（1年以上かつ複数PJ経験あり）
 
 ### ROLE
 - Front End
   - Web（言語：TS（JS/〜ES2022）・SCSS（CSS））
     - Vue（〜Vue2/Vuetify/Jest）：（★★★）
     - Angular（〜Angular14/Bootstrap/Jasmine・Karma）：（★★）
-    - React：（Tailwind CSS）（★）
+    - React（〜ReactJs18/Tailwind CSS）：（★★）
   - iOS（Swift/RxSwift）：（★★）
   - Android（Kotlin）：（★★）
 - Back End
@@ -50,10 +50,10 @@
   - Versioning：Git（Github/GitLab）
   - Coding：Prettier、SonarLint、ESLint 、TSLint、RuboCop
   - Build：Vite、Webpack、Babel、npm、Yarn
-  - VM(Container)：Docker（docker-compose、k8sは経験なし）
+  - VM(Container)：Docker（k8sは経験なし）
   - Unit Test：Selenium、BrowserStack、xUnit系（JUnit 、QUnit）、Jasmine/Karma、Jest、RSpec、pytest
   - Coverage：Codecov
-  - Loggin：Logstash 、slf4j + logback、log4j2、Loki、Fluent Bit（Fluentd）
+  - Log：Logstash 、slf4j + logback、log4j2、Loki、Fluent Bit（Fluentd）
   - API mockup：Postman、Soap UI、Swagger UI
   - Testing
     - Security（Sast/Dast/Penetration）：Fortify、SonarQube
@@ -71,21 +71,22 @@
   - API Gateway：Kong
   - CMS：WordPress（PHP）
   - Analytics：GA4、GTM、Karte
-  - Design：Figma, Zeppelin
+  - Design：Figma、Zeppelin
 
 - Management
-  - KnowLedge：Confluence
-  - isuee：Jira、Redmine、Asana、Backlog
+  - Knowledge：Confluence
+  - Issue Manage：Jira、Redmine、Asana、Backlog
 
 ### LANGUAGES
 1. JavaScript（TypeScript）：（★★★）
 2. HTML5：（★★★）
-3. CSS（Sass）：（★★★）
+3. CSS（SCSS）：（★★★）
 4. Python：（★★★）
 5. Ruby：（★★★）
 6. Java：（★★★）
 7. SQL：（★★★）
 8. Kotlin ：（★★）
 9. Swift：（★★）
-10. Go：（★）
-11. PHP：（★）
+10. C#：（★）
+11. Go：（★）
+12. PHP：（★）

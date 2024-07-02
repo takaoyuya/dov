@@ -1,9 +1,3 @@
-<!-- Paragraphs and Line Breaks  -->
-1行目(スペースを2つ入れる)
-
-2行目
-Local style
-
 <!-- Headers -->
 # Headers
 # This is an H1
@@ -36,14 +30,6 @@ As Kanye West said:
 - [ ] リスト1
 - [x] リスト2
 
-<!-- Horizontal Rules -->
-
-    * * *  
-    ***  
-    *****  
-    - - -  
-    ———————————————————
-
 <!-- Links -->
 # Links
 <https://github.com/takaoyuya/doc>
@@ -51,9 +37,7 @@ As Kanye West said:
 
 <!-- Links -->
 # Images
-![Finder](/images/Finder_icon_macOS_Yosemite.png){width="100px" height="100px"}
 ![Finder](/images/preview-scroll-sync.gif)
-
 
 <!-- Emphasis -->
 # Emphasis
@@ -78,126 +62,27 @@ I think you should use an
 `<addr>` element here instead.
 
 <!-- code -->
-```html:sample
-   <div>
-      <p>xxx</p>
-      <p>yyy</p>
-   </div>
 ```
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
-```javascript {.line-numbers}
 function add(x, y) {
   return x + y;
 }
 ```
 
-# Footnotes
-Content [^1]
-[^1]: Hi! This is a footnote
+# Alerts
+> [!NOTE]
+ Highlights information that users should take into account, even when skimming.
 
+> [!TIP]
+> Optional information to help a user be more successful.
 
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
 
-!!! info info "Lorem ipsum"
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
 
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-
-!!! note note "Lorem ipsum"
-
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-!!! abstract abstract "Lorem ipsum"
-
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-!!! tip tip "Lorem ipsum"
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-!!! success success "Lorem ipsum"
-
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-!!! question question "Lorem ipsum"
-
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-!!! warning warning "Lorem ipsum"
-
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-!!! failure failure "Lorem ipsum"
-
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-!!! danger danger "Lorem ipsum"
-
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-!!! bug bug "Lorem ipsum"
-
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-
-!!! example example "Lorem ipsum"
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-!!! quote quote "Lorem ipsum"
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
+> [!CAUTION]
+> Negative potential consequences of an action.
 
 <!-- Tables -->
 # Tables
@@ -275,7 +160,11 @@ gantt
         D Task :2024-06-12, 12d
         E Task    :24d
 ```
-sa
+
+# Footnotes
+Content [^1]
+[^1]: Hi! This is a footnote
+
 <!-- Extended syntax -->
 # Extended syntax
 30^th^
@@ -288,3 +177,5 @@ The style.less file will open, and you can override existing style
 [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/code-chunk)
 
 [Mermaid](https://github.com/mermaid-js/mermaid)
+
+[GitHub フォーマットの構文](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
