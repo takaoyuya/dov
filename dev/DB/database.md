@@ -29,5 +29,26 @@
 #### References
 -  [クエリサンプル](https://gist.github.com/linyows/d81319d00543e6d0093136fd7668637b)
 -  [RDS（PostgreSQL）](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html)
+   - [Amazon RDS for PostgreSQL](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.DBVersions)
+   - [Release EOL](https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-release-calendar.html)
+- チューニングガイド
+  - Citus Data（米マイクロソフト買収：PostgreSQL用の分散データベースエンジンの開発）
+      - https://www.citusdata.com/blog/2018/02/22/seven-tips-for-dealing-with-postgres-locks/
+  - あまり知られていないPostgreSQLの機能：https://postd.cc/postgresql-unknown-features/#08
+      - 連番：SERIAL（非推奨）→ GENERATED ALWAYS：連番項目を指定できないようにする（一意性制約違反が発生しにくくなる）
+      - パターンマッチ：regexp（例：~ ANY(ARRAY['@gmail\.com$', '@yahoo\.com$'])）
+      - UPSERT：クエリ例：INSERT ON CONFLICT
+      - DISTINCT ON：重複削除したカラムの、他カラム情報が欲しい
+      - gen_random_uuid()：ランダムなUUID（バージョン4）を生成する
+  - ORDER(select)：https://www.postgresql.org/docs/16/sql-select.html
+  - クエリサンプル
+      - https://gist.github.com/linyows/d81319d00543e6d0093136fd7668637b
+      - https://repost.aws/ja/knowledge-center/rds-postgresql-replication-lag
+      - https://qiita.com/mkyz08/items/ff4474a5546a62adc580
+      - https://learn.microsoft.com/ja-jp/azure/cosmos-db/postgresql/howto-useful-diagnostic-queries
 
---- 
+- Postgres: https://www.postgresql.jp/document/current/index.html
+    - Postgres権限：https://www.postgresql.jp/document/8.4/html/sql-grant.html
+    - Postgresデータタイプ：https://www.postgresql.org/docs/14/functions-formatting.html
+    - Postgres クエリサンプル：https://www.postgresqltutorial.com/
+    - PostgresパフォーマンスTips：https://www.postgresql.org/docs/current/performance-tips.html

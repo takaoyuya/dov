@@ -1,6 +1,6 @@
 ## Capability
 フロントエンドはTSベースのWEBシステム、バックエンドは、KotlinやNodeJs、GO、Python言語でのモダンな開発環境を希望。
-（Windows等ロックされた開発環境は不可）
+（MSロックされた開発環境は不可）
 
 ### LEVEL
 - Beginner（★）：学習経験あり・実務経験あり（1年以内）

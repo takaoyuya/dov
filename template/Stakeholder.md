@@ -1,5 +1,5 @@
-# Stakeholder Management
-ステークホルダーマネジメント
+# Stakeholder Performance Area
+ステークホルダーパフォーマンス領域
 
 ## Template
 #### Stakeholder

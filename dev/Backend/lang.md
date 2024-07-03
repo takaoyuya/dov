@@ -104,5 +104,3 @@
 #### References
 [what's new in C#13](https://learn.microsoft.com/ja-jp/dotnet/csharp/whats-new/csharp-13)
 [C# 言語のドキュメント](https://learn.microsoft.com/ja-jp/dotnet/csharp/)
-
---- 

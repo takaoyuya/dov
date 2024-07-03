@@ -98,21 +98,51 @@ function add(x, y) {
 <!-- Diagrams -->
 # Diagrams
 ### Sequence diagram
+<script>
+  mermaid.initialize({ sequence: { showSequenceNumbers: true } });
+</script>
 
 ```mermaid {code_block=true}
+---
+title: sequenceDiagram example
+---
 sequenceDiagram
-Alice->>Charles: Hello Charles, how are you?
+autonumber
+actor Alice
+activate Alice
+Alice->>Charles: Hello Charles, how are you(sync)
 loop HealthCheck
     Charles->>Charles: Fight against hypochondria
 end
 Note right of Charles: Rational thoughts!
-Charles-->>Alice: Great!
-Charles->>Bob: How about you?
-Bob-->>Charles: Jolly good!
+Charles--xAlice: Great!(Error)
+Charles-)Bob: How about you?(async)
+alt is sick
+    Bob->>Charles: Not so good :(
+else is well
+    Bob->>Charles: Feeling fresh like a daisy
+end
+opt Extra response
+    Bob->>Charles: Thanks for asking
+end
+
+%% this is a comment
+par Alice to Bob
+    Alice->>Bob: Hello guys!
+and Alice to Charles
+    Alice->>Charles: Hello guys!
+end
+Bob-->>Alice: Hi Alice!
+Charles-->>Alice: Hi Alice!
+deactivate Alice
+
 ```
 
 ### Class diagram
 ```mermaid {code_block=true}
+---
+title: classDiagram example
+---
 classDiagram
 Class01 <|-- AveryLongClass : Cool
 <<Interface>> Class01
@@ -124,22 +154,37 @@ Class07 : Object[] elementData
 Class01 : size()
 Class01 : int chimp
 Class01 : int gorilla
-class Class10 {
-  <<service>>
-  int id
-  size()
+
+Customer "1" --> "*" Ticket
+Student "1" --> "1..*" Course
+
+namespace BaseShapes {
+    class Triangle
+    class Rectangle {
+      double width
+      double height
+    }
 }
 ```
 
 ### State diagram
 ```mermaid {code_block=true}
+---
+title: stateDiagram example
+---
 stateDiagram-v2
-[*] --> Still
+classDef notMoving fill:white
+classDef badBadEvent fill:#f00,color:white,font-weight:bold,stroke-width:2px,stroke:yellow
+[*] --> Still:::notMoving
 Still --> [*]
 Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
+state if_state <<choice>>
+Moving --> Still: cancel
+Moving --> if_state
+if_state --> [*]: OK
+if_state --> Crash : NG
+Crash:::badBadEvent --> [*]
+
 ```
 
 ### gantt chart
@@ -160,6 +205,74 @@ gantt
         D Task :2024-06-12, 12d
         E Task    :24d
 ```
+
+
+### quadrant chart
+```mermaid {code_block=true}
+---
+title: quadrantChart example
+---
+%%{init: {"quadrantChart": {"chartWidth": 400, "chartHeight": 400}, "themeVariables": {"quadrant1TextFill": "#ff0000"} }}%%
+quadrantChart
+  x-axis Urgent --> Not Urgent
+  y-axis Not Important --> "Important ❤"
+  quadrant-1 Plan
+  quadrant-2 Do
+  quadrant-3 Delegate
+  quadrant-4 Delete
+```
+
+### gitGraph chart
+```mermaid {code_block=true}
+---
+title: gitGraph example
+---
+%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%
+      gitGraph
+        commit
+        branch hotfix
+        checkout hotfix
+        commit
+        branch develop
+        checkout develop
+        commit id:"ash" tag:"abc"
+        branch featureB
+        checkout featureB
+        commit type:HIGHLIGHT
+        checkout main
+        checkout hotfix
+        commit type:NORMAL
+        checkout develop
+        commit type:REVERSE
+        checkout featureB
+        commit
+        checkout main
+        merge hotfix
+        checkout featureB
+        commit
+        checkout develop
+        branch featureA
+        commit
+        checkout develop
+        merge hotfix
+        checkout featureA
+        commit
+        checkout featureB
+        commit
+        checkout develop
+        merge featureA
+        branch release
+        checkout release
+        commit
+        checkout main
+        commit
+        checkout release
+        merge main
+        checkout develop
+        merge release
+
+```
+
 
 # Footnotes
 Content [^1]
