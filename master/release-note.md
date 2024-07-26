@@ -126,9 +126,6 @@
   - ロール：開発メンバー（開発チーム：オン10名/オフ10名）
   - スタック：FE/TS(Angular)、BE/Java(Spring)、DB/Oracle・インフラ/AWS
 
-  1. 通信業向け共同購入型クーポンサイト（PJ立ち上げ：2015/4 〜 2015/9）
-  - ロール：ビジネス要件定義・設計メンバー（開発チーム：オン20名）
-
   
 ### その他：社内向け
 - 銀行向け口座開設アプリ、イベント向け情報配信アプリ、会議室予約アプリ、施設案内アプリ等
@@ -142,22 +139,47 @@
 
 --- 
 
+## Project 3rd (2015-09/2018-01)
+銀行口座連携の収支管理アプリの開発
+
+- Phase：PJ立ち上げ（要件定義・設計・開発・テスト・リリース）
+- Target：コンシューマ向け
+- Client：iOS, Android
+- Role：開発メンバー（チーム/プロジェクト：6名 + オフサイト5名/15名）
+
+### New Features
+コンシューマ向けのハイブリッドアプリの開発をFE/BE両方経験
+
+### Tech Stacks
+<img src="https://img.shields.io/badge/TypeScript-197A4B">
+<img src="https://img.shields.io/badge/Angular-008299">
+<img src="https://img.shields.io/badge/Java-C74700">
+<img src="https://img.shields.io/badge/Spring-EC0000">
+<img src="https://img.shields.io/badge/Oracle-264AF4">
+<img src="https://img.shields.io/badge/AWS-927200">
+
+### Performance Improvements
+<img src="https://img.shields.io/badge/ハイブリッドアプリ設計-0066BE">
+<img src="https://img.shields.io/badge/パブリッククラウド-0066BE">
+
+--- 
 
 ## Project 2nd (2015-04/09)
 通信業向け共同購入型ECサイトの構築
 
-- Phase：PJ立ち上げ（要件定義）
+- Phase：PJ立ち上げ（要件定義・テスト計画・実施）
 - Target：コンシューマ向け
 - Client：Web
 - Role：要件定義メンバー（チーム/プロジェクト：5名/30名）
 
 ### New Features
-コンシューマ向けECサイト構築PJの要件定義を経験
+コンシューマ向けECサイト構築PJの要件定義を経験。クライアント向けに定義資料の作成と、全体テスト計画作成と実施を担当。
 
 ### Tech Stacks
  N/A
 
-<br>
+### Performance Improvements
+<img src="https://img.shields.io/badge/資料作成-CO00CO">
 
 --- 
 
@@ -172,9 +194,22 @@
 コンシューマ向けのアプリ開発を経験
 
 ### Tech Stacks
-<img src="https://img.shields.io/badge/-ObjectiveC-17394A.svg?logo=Objective-C&style=flat">
+<img src="https://img.shields.io/badge/-ObjectiveC-197A4B.svg?logo=Objective-C&style=flat">
 
 <br>
+
+--- 
+
+<img src="https://img.shields.io/badge/FE/LANG-v1.2.3-197A4B">
+<img src="https://img.shields.io/badge/FE/FW-v1.2.3-008299">
+<img src="https://img.shields.io/badge/BE/LANG-v1.2.3-C74700">
+<img src="https://img.shields.io/badge/BE/FW-v1.2.3-EC0000">
+<img src="https://img.shields.io/badge/DB-v1.2.3-264AF4">
+<img src="https://img.shields.io/badge/DEVOPS-8843E1">
+<img src="https://img.shields.io/badge/MONITOR-507500">
+<img src="https://img.shields.io/badge/INFRA-927200">
+<img src="https://img.shields.io/badge/ビジネス系-CO00CO">
+<img src="https://img.shields.io/badge/設計系-0066BE">
 
 ## References
 [shields.io](https://shields.io/)
