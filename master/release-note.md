@@ -102,11 +102,7 @@
   - ロール：チームリード（開発チーム：オン5名/オフ10名）
   - スタック：FE/TypeScript(Angular)、BE/Java(Spring)、DB/Postgres・インフラ/AWS
 
-  1. 百貨店向け、ECサイトのリプレース(PJ立ち上げ：2020/3 〜 2022/6)
-  - ロール：チームリード（開発チーム：オン5名/オフ15名）
-  - スタック：FE/Java(Thymeleaf)、BE/Java(Spring)/ElasticSearch、DB/Postgres・インフラ/AWS
 
-  
 ### その他：社内向け
 - 銀行向け口座開設アプリ、イベント向け情報配信アプリ、会議室予約アプリ、施設案内アプリ等
 
@@ -117,6 +113,32 @@
 - Windows使用不可（Mac もしくは Linuxのみ可）
 
 
+
+
+
+--- 
+
+## Project 8th (2022-07/2023-04)
+銀行口座連携の収支管理システムの開発
+- Phase：PJ立ち上げ（設計・開発・テスト・リリース）
+- Target：コンシューマ向け
+- Client：Web（BO機能）
+- Role：チームリード（チーム/プロジェクト：6名+ オフサイト5名/20名）
+
+### New Features
+バックオフィス向けの管理画面構築を経験
+
+### Tech Stacks
+<img src="https://img.shields.io/badge/Java-C74700">
+<img src="https://img.shields.io/badge/Thymeleaf-008299">
+<img src="https://img.shields.io/badge/Spring-EC0000">
+<img src="https://img.shields.io/badge/SpringBatch-EC0000">
+<img src="https://img.shields.io/badge/PostgreSQL-264AF4">
+<img src="https://img.shields.io/badge/ElasticSearch-264AF4">
+<img src="https://img.shields.io/badge/AWS-927200">
+
+### Performance Improvements
+<img src="https://img.shields.io/badge/＃バッチ連携-0066BE">
 
 --- 
 
@@ -131,12 +153,12 @@
 大規模ECサイトの構築を経験
 
 ### Tech Stacks
+<img src="https://img.shields.io/badge/TypeScript-197A4B">
+<img src="https://img.shields.io/badge/SCSS-197A4B">
+<img src="https://img.shields.io/badge/Angular-008299">
 <img src="https://img.shields.io/badge/Java-C74700">
-<img src="https://img.shields.io/badge/Thymeleaf-008299">
 <img src="https://img.shields.io/badge/Spring-EC0000">
-<img src="https://img.shields.io/badge/SpringBatch-EC0000">
 <img src="https://img.shields.io/badge/PostgreSQL-264AF4">
-<img src="https://img.shields.io/badge/ElasticSearch-264AF4">
 <img src="https://img.shields.io/badge/AWS-927200">
 
 ### Performance Improvements
