@@ -122,10 +122,6 @@
   - ロール：開発メンバー（開発チーム：オン15名）
   - スタック：FE/Swift、BE/SalesForce
 
-  1. 銀行口座連携の収支管理アプリの開発（PJ立ち上げ：2015/9 〜 2018/1）
-  - ロール：開発メンバー（開発チーム：オン10名/オフ10名）
-  - スタック：FE/TS(Angular)、BE/Java(Spring)、DB/Oracle・インフラ/AWS
-
   
 ### その他：社内向け
 - 銀行向け口座開設アプリ、イベント向け情報配信アプリ、会議室予約アプリ、施設案内アプリ等
@@ -137,11 +133,30 @@
 - Windows使用不可（Mac もしくは Linuxのみ可）
 
 
+
 --- 
+
+## Project 4th (2018-01/09)
+飲料水メーカーの販売員向け、スケジュール・商談・管理アプリの開発
+- Phase：PJ立ち上げ（設計・開発・テスト・リリース）
+- Target：業務アプリ
+- Client：iOS
+- Role：開発メンバー（チーム/プロジェクト：6名/20名）
+
+### New Features
+業務アプリ開発を経験
+
+### Tech Stacks
+<img src="https://img.shields.io/badge/Swift-197A4B">
+<img src="https://img.shields.io/badge/SalesForce-EC0000">
+
+### Performance Improvements
+<img src="https://img.shields.io/badge/＃ステート管理-0066BE">
+
+---
 
 ## Project 3rd (2015-09/2018-01)
 銀行口座連携の収支管理アプリの開発
-
 - Phase：PJ立ち上げ（要件定義・設計・開発・テスト・リリース）
 - Target：コンシューマ向け
 - Client：iOS, Android
@@ -152,21 +167,24 @@
 
 ### Tech Stacks
 <img src="https://img.shields.io/badge/TypeScript-197A4B">
+<img src="https://img.shields.io/badge/SCSS-197A4B">
 <img src="https://img.shields.io/badge/Angular-008299">
+<img src="https://img.shields.io/badge/Ionic-008299">
 <img src="https://img.shields.io/badge/Java-C74700">
 <img src="https://img.shields.io/badge/Spring-EC0000">
 <img src="https://img.shields.io/badge/Oracle-264AF4">
 <img src="https://img.shields.io/badge/AWS-927200">
 
 ### Performance Improvements
-<img src="https://img.shields.io/badge/ハイブリッドアプリ設計-0066BE">
-<img src="https://img.shields.io/badge/パブリッククラウド-0066BE">
+<img src="https://img.shields.io/badge/＃ハイブリッドアプリ設計-0066BE">
+<img src="https://img.shields.io/badge/＃パブリッククラウド-0066BE">
+<img src="https://img.shields.io/badge/＃DevOpsパイプライン構築-0066BE">
+<img src="https://img.shields.io/badge/＃アジャイル-0066BE">
 
 --- 
 
 ## Project 2nd (2015-04/09)
 通信業向け共同購入型ECサイトの構築
-
 - Phase：PJ立ち上げ（要件定義・テスト計画・実施）
 - Target：コンシューマ向け
 - Client：Web
@@ -176,10 +194,10 @@
 コンシューマ向けECサイト構築PJの要件定義を経験。クライアント向けに定義資料の作成と、全体テスト計画作成と実施を担当。
 
 ### Tech Stacks
- N/A
+N/A
 
 ### Performance Improvements
-<img src="https://img.shields.io/badge/資料作成-CO00CO">
+<img src="https://img.shields.io/badge/＃資料作成-CO00CO">
 
 --- 
 
@@ -196,6 +214,9 @@
 ### Tech Stacks
 <img src="https://img.shields.io/badge/-ObjectiveC-197A4B.svg?logo=Objective-C&style=flat">
 
+### Performance Improvements
+<img src="https://img.shields.io/badge/＃ネイティブアプリ設計-0066BE">
+
 <br>
 
 --- 
@@ -208,8 +229,9 @@
 <img src="https://img.shields.io/badge/DEVOPS-8843E1">
 <img src="https://img.shields.io/badge/MONITOR-507500">
 <img src="https://img.shields.io/badge/INFRA-927200">
-<img src="https://img.shields.io/badge/ビジネス系-CO00CO">
-<img src="https://img.shields.io/badge/設計系-0066BE">
+<br>
+<img src="https://img.shields.io/badge/＃ビジネス系-CO00CO">
+<img src="https://img.shields.io/badge/＃設計系-0066BE">
 
 ## References
 [shields.io](https://shields.io/)
