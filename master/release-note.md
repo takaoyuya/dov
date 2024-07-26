@@ -118,10 +118,7 @@
   - ロール：チームリード（開発チーム：オン6名）
   - スタック：FE/(Swift+Kotlin)
 
-  1. 飲料水メーカーの販売員向け、スケジュール・商談・管理アプリの開発（PJ立ち上げ：2018/1 〜 2018/9）
-  - ロール：開発メンバー（開発チーム：オン15名）
-  - スタック：FE/Swift、BE/SalesForce
-
+  
   
 ### その他：社内向け
 - 銀行向け口座開設アプリ、イベント向け情報配信アプリ、会議室予約アプリ、施設案内アプリ等
@@ -133,6 +130,24 @@
 - Windows使用不可（Mac もしくは Linuxのみ可）
 
 
+
+--- 
+
+## Project 5th (2018-09/2019-07)
+銀行向けQR決済アプリの開発
+- Phase：PJ立ち上げ（設計・開発・テスト・リリース）
+- Target：コンシューマ向け
+- Client：iOS
+- Role：開発メンバー（チーム/プロジェクト：3名/10名）
+
+### New Features
+コンシューマ向けのネイティブアプリの開発を経験
+
+### Tech Stacks
+<img src="https://img.shields.io/badge/Swift-197A4B">
+
+### Performance Improvements
+<img src="https://img.shields.io/badge/＃QRコード決済-0066BE">
 
 --- 
 
