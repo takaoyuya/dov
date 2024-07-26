@@ -114,10 +114,6 @@
   - ロール：開発メンバー（開発チーム：オン8名）
   - スタック：FE/TS(Angular)、BE/Java(Spring)、DB/Postgres・インフラ/Azure
 
-  1. 銀行向けQR決済アプリの開発（PJ立ち上げ：2018/9 〜2019/7）
-  - ロール：チームリード（開発チーム：オン6名）
-  - スタック：FE/(Swift+Kotlin)
-
   
   
 ### その他：社内向け
@@ -130,6 +126,31 @@
 - Windows使用不可（Mac もしくは Linuxのみ可）
 
 
+
+--- 
+
+## Project 6th (2019-08/2019-11)
+コンビニ店舗オーナー向け、勤怠管理システムの開発
+- Phase：PJ立ち上げ（設計・開発・テスト・リリース）
+- Target：業務アプリ
+- Client：iOS
+- Role：開発メンバー（チーム/プロジェクト：5名/10名）
+
+### New Features
+業務アプリ開発を経験
+
+### Tech Stacks
+<img src="https://img.shields.io/badge/TypeScript-197A4B">
+<img src="https://img.shields.io/badge/SCSS-197A4B">
+<img src="https://img.shields.io/badge/Angular-008299">
+<img src="https://img.shields.io/badge/Ionic-008299">
+<img src="https://img.shields.io/badge/Java-C74700">
+<img src="https://img.shields.io/badge/Spring-EC0000">
+<img src="https://img.shields.io/badge/PostgreSQL-264AF4">
+<img src="https://img.shields.io/badge/AWS-927200">
+
+### Performance Improvements
+<img src="https://img.shields.io/badge/＃テーブル設計-0066BE">
 
 --- 
 
