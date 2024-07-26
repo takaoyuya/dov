@@ -106,15 +106,6 @@
   - ロール：チームリード（開発チーム：オン5名/オフ15名）
   - スタック：FE/Java(Thymeleaf)、BE/Java(Spring)/ElasticSearch、DB/Postgres・インフラ/AWS
 
-  1. 損保向けオンライン契約システムの開発（PJ立ち上げ：2019/11〜2020/2）
-  - ロール：開発メンバー（開発チーム：オン6名/オフ15名）
-  - スタック：FE/TS(Angular)、BE/Java(Spring)、DB/Postgres・インフラ/AWS
-
-  1. コンビニ店舗オーナー向け、勤怠管理システムの開発(PJ立ち上げ：2019/8 〜 2019/11)
-  - ロール：開発メンバー（開発チーム：オン8名）
-  - スタック：FE/TS(Angular)、BE/Java(Spring)、DB/Postgres・インフラ/Azure
-
-  
   
 ### その他：社内向け
 - 銀行向け口座開設アプリ、イベント向け情報配信アプリ、会議室予約アプリ、施設案内アプリ等
@@ -126,6 +117,38 @@
 - Windows使用不可（Mac もしくは Linuxのみ可）
 
 
+
+--- 
+
+## Project 7th (2019-12/2022-06)
+百貨店向け、ECサイトのリプレース
+- Phase：PJ立ち上げ（設計・開発・テスト・リリース）
+- Target：コンシューマ向け
+- Client：Web
+- Role：チームサブリード（チーム/プロジェクト：6名+ オフサイト5名/50名）
+
+### New Features
+大規模ECサイトの構築を経験
+
+### Tech Stacks
+<img src="https://img.shields.io/badge/Java-C74700">
+<img src="https://img.shields.io/badge/Thymeleaf-008299">
+<img src="https://img.shields.io/badge/Spring-EC0000">
+<img src="https://img.shields.io/badge/SpringBatch-EC0000">
+<img src="https://img.shields.io/badge/PostgreSQL-264AF4">
+<img src="https://img.shields.io/badge/ElasticSearch-264AF4">
+<img src="https://img.shields.io/badge/AWS-927200">
+
+### Performance Improvements
+<img src="https://img.shields.io/badge/＃検索エンジン設計-0066BE">
+<img src="https://img.shields.io/badge/＃メール設計-0066BE">
+<img src="https://img.shields.io/badge/＃SEO設計-0066BE">
+<img src="https://img.shields.io/badge/＃バッチ設計-0066BE">
+<img src="https://img.shields.io/badge/＃パフォテ-0066BE">
+<img src="https://img.shields.io/badge/＃本人確認（3Dセキュア）-0066BE">
+<img src="https://img.shields.io/badge/＃在庫管理-0066BE">
+<img src="https://img.shields.io/badge/＃会員管理-0066BE">
+<img src="https://img.shields.io/badge/＃商品管理-0066BE">
 
 --- 
 
@@ -147,7 +170,7 @@
 <img src="https://img.shields.io/badge/Java-C74700">
 <img src="https://img.shields.io/badge/Spring-EC0000">
 <img src="https://img.shields.io/badge/PostgreSQL-264AF4">
-<img src="https://img.shields.io/badge/AWS-927200">
+<img src="https://img.shields.io/badge/Aure-927200">
 
 ### Performance Improvements
 <img src="https://img.shields.io/badge/＃テーブル設計-0066BE">
