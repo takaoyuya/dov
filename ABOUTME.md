@@ -90,3 +90,10 @@
 10. C#：（★）
 11. Go：（★）
 12. PHP：（★）
+
+### 資格
+- TOEIC：820
+- AWS Solutions Architect（Associate）：2019年・2023年
+- AWS SysOps Administrator：2019年・2023年
+- AWS Developer：2019年・2023年
+- GCP Professional Cloud Architect：2023年
