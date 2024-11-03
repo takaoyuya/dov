@@ -1,7 +1,7 @@
 # About Me (As of 2024/07)
 エンジニアとして15年の実務経験があり、フロントエンド・バックエンド・データベースの設計・開発・運用まで複数プロジェクトで一気通貫して経験しております。
 これまで様々なプロジェクトやチーム体制を経験しているため、プロジェクトのスタックに関わらず柔軟かつスムーズにキャッチアップしての参画が可能です。
-希望としては設計・開発業務をメインに、要件の整理を含めて担当できればと思います。
+希望としては設計・開発業務をメインに、要件整理を含めて担当できればと思います。
 
 ## Career
 [リリースノート（過去PJ詳細）](https://github.com/takaoyuya/doc/releases)
@@ -13,11 +13,18 @@
 - 製造：実装ガイドライン作成、リードコーディング（単体テスト含む）、コードレビュー
 - テスト：結合テスト・セキュリティテスト（SAST・DAST・ペネトレ）・性能テスト・ユーザビリティテスト・ロングランテストの計画・実行
 - 運用・保守・監視：障害の影響分析・水平展開、分析ログ管理
+- その他（リード業務経験）
+  - 全体スケジュール設計
+  - 制度設計（プロセス）
+  - 情報管理（ナレッジ整理、情報可視化）
+  - 品質チェック・生産管理（コード・ドキュメントレビュー、ベース実装、技術課題の解消）
+  - タスク設計・進捗管理（WBS、定例運営、作業トリアージ）
+  - オフショア管理
 
 ### Thema
 WEBシステムとモバイルアプリ対象に以下を経験
 - コンシューマ：ECサイト、QR決済アプリ、収支管理アプリ
-- 業務アプリ：勤怠管理アプリ、スケジュール・商談管理アプリ、商談管理アプリ
+- 業務アプリ：勤怠管理アプリ、スケジュール・商談管理アプリ
 
 ### Experience
 - System Delivery
@@ -48,8 +55,10 @@ WEBシステムとモバイルアプリ対象に以下を経験
 
 
 ## Capability
+- プログライミング言語は経験10強程度であるが、特に制限なし（おっとり刀で取得可能）
+
 ### Front End
-Web中心であるが、ネイティブも経験あり（要キャッチアップ）
+Webシステム中心であるが、ネイティブアプリも経験あり
 
 - LANGUAGES (Skill-Level DESC)
 
@@ -87,11 +96,11 @@ Web中心であるが、ネイティブも経験あり（要キャッチアッ�
 
 
 ### Infra
-小規模もしくは、個別サービスレベルであれば、必要に応じで対応可能。全体設計はほぼ未経験
+小規模もしくは、個別サービスレベルであれば、必要に応じで対応可能。全体設計はほぼ未経験（資格取得は末尾記載）
 
 - AWS
 
-    <img src="https://img.shields.io/badge/CloudFront-927200"> <img src="https://img.shields.io/badge/CloudWatch-927200"> <img src="https://img.shields.io/badge/Lambda-927200"> <img src="https://img.shields.io/badge/ECS/Fargate-927200"> <img src="https://img.shields.io/badge/S3-927200"> <img src="https://img.shields.io/badge/KMS-927200"> <img src="https://img.shields.io/badge/RDS-927200"> <img src="https://img.shields.io/badge/ElastiCache-927200"> <img src="https://img.shields.io/badge/Cognito-927200"> <img src="https://img.shields.io/badge/SNS-927200"> <img src="https://img.shields.io/badge/Clean Rooms-927200">
+    <img src="https://img.shields.io/badge/CloudFront-927200"> <img src="https://img.shields.io/badge/CloudWatch-927200"> <img src="https://img.shields.io/badge/Lambda-927200"> <img src="https://img.shields.io/badge/ECS/Fargate-927200"> <img src="https://img.shields.io/badge/S3-927200"> <img src="https://img.shields.io/badge/KMS-927200"> <img src="https://img.shields.io/badge/RDS-927200"> <img src="https://img.shields.io/badge/ElastiCache-927200"> <img src="https://img.shields.io/badge/Cognito-927200"> <img src="https://img.shields.io/badge/SNS-927200"> <img src="https://img.shields.io/badge/Clean Room-927200">
 
 - GCP
 
@@ -99,7 +108,8 @@ Web中心であるが、ネイティブも経験あり（要キャッチアッ�
 
 
 ### DB
-テーブル設計、SQLチューニング可能。トランザクション制御・分離レベル、ロック強度・範囲の理解あり
+- テーブル設計、SQLチューニング（オーダー計算、サブクエリ発行回数）可能
+- トランザクション制御・分離レベル、ロック強度・範囲の理解あり
 
 
 - RDB (Skill-Level DESC)
@@ -190,7 +200,7 @@ Web中心であるが、ネイティブも経験あり（要キャッチアッ�
     <img src="https://img.shields.io/badge/Figma-507500"> <img src="https://img.shields.io/badge/Zeppelin-507500">
 
 ### Certification
-- TOEIC：820
+- TOEIC：820（2022）
 - AWS Solutions Architect(Associate)：2019年・2023年
 - AWS SysOps Administrator：2019年・2023年
 - AWS Developer：2019年・2023年
