@@ -29,7 +29,8 @@
     * ダイナミックインポート(Dynamic Import)：promiseを返す
 
 #### References
-[w3schools](https://www.w3schools.com/js/js_2024.asp)
+[ECMAScript 202x](https://www.w3schools.com/js/js_2024.asp)
+[compat-table](https://compat-table.github.io/compat-table/es6/)
 
 --- 
 
