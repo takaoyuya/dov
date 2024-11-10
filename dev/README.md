@@ -71,3 +71,32 @@
 
 ■ MS：
 https://developer.mozilla.org/en-US/blog/
+
+# My Stacks (chatchup links)
+t-table.gi
+### LANG
+
+- HTML：[Examples(w3schools)](https://www.w3schools.com/html/html_examples.asp), [Compatibility(caniuse)](https://caniuse.com/)
+- CSS：[Examples(w3schools)](https://www.w3schools.com/css/default.asp), [Updates (web.dev)](https://web.dev/series/baseline-newly-available?hl=ja)
+- JS：
+- TS：
+- GO：
+- Python：
+- Ruby
+- Java
+- C#
+
+FW
+- Anguler
+- Vue
+- React
+- Tailwind
+
+Build
+- Vite
+
+Web
+- Security
+
+TEST
+- Playwright
