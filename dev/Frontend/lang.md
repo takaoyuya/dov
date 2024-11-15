@@ -2,7 +2,6 @@
 
 ## ECMAScript
 
-
 ### Release cycle
 [リリースノート(TC39)](https://github.com/tc39/ecma262/releases)
 * ES2024：2024/6
@@ -41,7 +40,6 @@
 [リリースノート（Git）](https://github.com/Microsoft/TypeScript/releases)
 [リリースノート](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-2.html)
 
-
 - 5.5：2024/6
 - 5.4：2024/3
 - 5.3：2023/11
@@ -76,51 +74,3 @@
     - V8（v10.1）の新機能：配列メソッド「findLast()」「findLastIndex()」が利用可能
 
 #### References
-
---- 
-
-## React.js
-
-### Release cycle
-リリースサイクル不明
-[リリースノート](https://legacy.reactjs.org/versions)
-
-- 19：TBD
-- 18：2022/3/29
-- 17：2020/10
-
-#### References
---- 
-
-## Vue.js
-
-### Release cycle
-[リリースノート](https://vuejs.org/about/releases.html)
-[What's New in 3.4](https://blog.vuejs.org/posts/vue-3-4)
-
-###　History
-- 3.4：2023/12
-- 3：2020/09
-    - filterは削除
-    - TypeScriptをサポート
-    - Composition APIで大規模なコンポーネントが作成しやすくなった
-
-#### References
---- 
-
-## Angular
-
-### Release cycle
-6ヶ月ごとのメジャーアップ（メジャーリリースは18ヶ月サポート）
-[リリースノート](https://angular.jp/guide/releases/)
-
-###　History
-- 17：2023/11
-- 16：2023/5
-- 15：2022/11
-- 14：2022/6
-- 13：2021/11
-- 12：2021/5
-
-#### References
---- 
